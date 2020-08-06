@@ -1,0 +1,122 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: ivory;
+    text-decoration: initial;
+}
+
+body {
+    background-image: url("images/chic.jpg");
+    background-color: rgb(199, 209, 209);
+    background-blend-mode: normal;
+    background-size: cover;
+    background-position: relative;
+    overflow-y: auto;
+    display: block;
+}
+
+nav {
+    background-color: rgb(107, 105, 105);
+    padding: 50px 0;
+    min-width: 500px;
+    text-align: center;
+}
+nav ul {
+    background: linear-gradient(90deg, 
+     rgba(255, 255, 255, 0) 0%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 10px; 
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+ }
+
+ div {
+     color: rgb(41, 37, 37);
+    padding: 10px;
+    padding-top: 10%;
+    padding-right: 5%;
+    font-size: 1em;
+    font-family: 1em sans-serif;
+    font-weight: bolder;
+    text-transform: none;
+    font-style: solid;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    justify-content: center;
+    display: flex;
+}
+
+section {
+    color: rgb(41, 37, 37);
+    font-size: 1.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 5%;
+    padding-top: 3%;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    word-spacing: 0rem;
+    letter-spacing: 0rem;
+    line-height: 2rem;
+}
+
+button {
+    background-color: rgb(211, 107, 38);
+    align-content: center;
+    margin-top: 10%;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin: 10pt;
+    font-weight: bold;
+    border-spacing: .5em;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration-color: whitesmoke;
+}
+
+.login:hover {
+    background-color: rgb(80, 81, 83);
+}
+
+.copyright {
+    font-size: 10pt;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 31.25em) {
+    html {
+        font-size: 56.25%; 
+    }
+
+}

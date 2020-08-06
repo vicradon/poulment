@@ -1,0 +1,28 @@
+{
+  "name": "poulment-backend",
+  "version": "1.0.0",
+  "description": "Backend logic for Poulment",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "start:dev": "nodemon --watch ."
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Team Fleet",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "express-jwt": "^5.3.3",
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "nodemon": "^2.0.3"
+  }
+}

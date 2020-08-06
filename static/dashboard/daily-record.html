@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Daily Record</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="daily-records.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <nav>
+      <h2 class="logo">Dashboard</h2>
+
+      <ul class="admin-menu">
+        <li class="menu-heading">
+          <a href="record.html">
+            <h3>Daily Record</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="production.html">
+            <h3>Production</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="accounting.html">
+            <h3>Accounting</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="birds.html">
+            <h3>Birds</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="medics.html">
+            <h3>medics</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="employees.html">
+            <h3>employees</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="manage-farms.html">
+            <h3>manage farms</h3>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <section class="page-content">
+
+    <h1>Daily Record</h1>
+
+    <div class="daily-input-forms">
+
+      <div class="container">
+        <form id="contact" class="daily-record-form">
+          <div>
+            <h3>Daily record input</h3>
+          </div>
+          <div class="form-fields">
+            <fieldset>
+              <label for="">
+                <p>number of eggs sold</p>
+              </label>
+              <input id="numberOfEggsSold" placeholder="" type="text" tabindex="" autofocus>
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>total birds sold</p>
+              </label>
+              <input id="numberOfBirdsSold" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+
+            <fieldset>
+              <label for="">
+                <p>total deaths today</p>
+              </label>
+              <input id="deaths" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>new sick birds</p>
+              </label>
+              <input id="newlySickBirds" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>new recovered birds</p>
+              </label>
+              <input id="newlyRecoveredBirds" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>total of eggs produced</p>
+              </label>
+              <input id="numberOfEggsProduced" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>kg of feed consumed</p>
+              </label>
+              <input id="kgOfFeedConsumed" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>kg of feed consumed</p>
+              </label>
+              <input id="litersOfWaterConsumed" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>Vaccination</p>
+              </label>
+              <input id="vaccination" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+
+            <fieldset>
+              <label for="">
+                <p>Current medication</p>
+              </label>
+              <input id="currentMedication" placeholder="" type="text" tabindex="1">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>Feeding costs</p>
+              </label>
+              <input id="feedingCosts" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>Medical costs</p>
+              </label>
+              <input id="medicalCosts" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>Water costs</p>
+              </label>
+              <input id="waterCosts" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>Other costs</p>
+              </label>
+              <input id="otherCosts" placeholder="" type="text" tabindex="">
+            </fieldset>
+          </div>
+          <fieldset>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 1rem;">
+              <button class="forms-button" name="submit" id="next-form-set" data-submit="...Sending">Sumit</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <small>
+        <span>
+          Poulment © 2020
+        </span>
+      </small>
+    </footer>
+  </section>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

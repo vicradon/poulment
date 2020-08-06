@@ -1,0 +1,117 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Birds</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="daily-records.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <nav>
+      <h2 class="logo">Dashboard</h2>
+
+      <ul class="admin-menu">
+        <li class="menu-heading">
+          <a href="records.html">
+            <h3>Daily Record</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="production.html">
+            <h3>Production</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="accounting.html">
+            <h3>Accounting</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="birds.html">
+            <h3>Birds</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="medics.html">
+            <h3>medics</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="employees.html">
+            <h3>employees</h3>
+          </a>
+        </li>
+
+        <li class="menu-heading">
+          <a href="manage-farms.html">
+            <h3>manage farms</h3>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <section class="page-content">
+
+    <h1>Birds</h1>
+
+    <div class="accounting-input-forms">
+
+      <div class="container">
+        <form id="contact" class="daily-record-form">
+          <div>
+            <h3>Birds Health Check</h3>
+          </div>
+          <div class="form-fields">
+            <fieldset>
+              <label for="">
+                <p>Mortality</p>
+              </label>
+              <input id="mortality" placeholder="" type="text" tabindex="" autofocus>
+            </fieldset>
+
+            <fieldset>
+              <label for="">
+                <p>Newly Sick</p>
+              </label>
+              <input id="dailyExpenses" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+
+            <fieldset>
+              <label for="">
+                <p>Newly Recovered</p>
+              </label>
+              <input id="recovered" placeholder="" type="text" tabindex="">
+            </fieldset>
+
+          
+          <fieldset>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 1rem;">
+              <button class="forms-button" name="submit" id="next-form-set" data-submit="...Sending">Sumit</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <small>
+        <span>
+          Poulment © 2020
+        </span>
+      </small>
+    </footer>
+  </section>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
